@@ -14,7 +14,7 @@ import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 import PersonIcon from "@mui/icons-material/Person";
 
 export const BottomTab = () => {
-    const [value, setValue] = useState(0);
+    const [value, setValue] = useState(1);
     const ref = useRef<HTMLDivElement>(null);
 
     return (

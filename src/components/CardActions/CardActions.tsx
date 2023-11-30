@@ -63,7 +63,7 @@ const CardActions = ({
             >
                 <div
                     className="flex flex-col items-center"
-                    style={{ minWidth: "4em" }}
+                    style={{ width: 64 }}
                     onClick={onToggleFreezeCardHandler}
                 >
                     <div
@@ -78,7 +78,7 @@ const CardActions = ({
                 </div>
                 <div
                     className="flex flex-col items-center"
-                    style={{ minWidth: "4em" }}
+                    style={{ width: 64 }}
                 >
                     <div
                         className="h-8 w-8 rounded-full flex justify-center items-center"
@@ -92,7 +92,7 @@ const CardActions = ({
                 </div>
                 <div
                     className="flex flex-col items-center"
-                    style={{ minWidth: "4em" }}
+                    style={{ width: 64 }}
                 >
                     <div
                         className="h-8 w-8 rounded-full flex justify-center items-center"
@@ -109,7 +109,7 @@ const CardActions = ({
                 </div>
                 <div
                     className="flex flex-col items-center"
-                    style={{ minWidth: "4em" }}
+                    style={{ width: 64 }}
                 >
                     <div
                         className="h-8 w-8 rounded-full flex justify-center items-center"
@@ -123,7 +123,7 @@ const CardActions = ({
                 </div>
                 <div
                     className="flex flex-col items-center"
-                    style={{ minWidth: "4em" }}
+                    style={{ width: 64 }}
                     onClick={onClickCancelCardHandler}
                 >
                     <div
