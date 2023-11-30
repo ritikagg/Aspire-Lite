@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aspire-lite/static/css/main.92b2906b.css",
+    "main.js": "/aspire-lite/static/js/main.3f7f717c.js",
+    "static/js/787.998672b3.chunk.js": "/aspire-lite/static/js/787.998672b3.chunk.js",
+    "index.html": "/aspire-lite/index.html",
+    "main.92b2906b.css.map": "/aspire-lite/static/css/main.92b2906b.css.map",
+    "main.3f7f717c.js.map": "/aspire-lite/static/js/main.3f7f717c.js.map",
+    "787.998672b3.chunk.js.map": "/aspire-lite/static/js/787.998672b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92b2906b.css",
+    "static/js/main.3f7f717c.js"
+  ]
+}
