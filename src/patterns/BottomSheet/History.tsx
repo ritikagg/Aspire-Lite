@@ -28,7 +28,7 @@ const History = () => {
     };
 
     return (
-        <div className="p-6 bg-white">
+        <div className="p-6 pb-32 bg-white">
             <div
                 className="p-2 rounded-md my-4"
                 style={{
