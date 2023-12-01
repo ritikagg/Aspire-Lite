@@ -44,6 +44,10 @@ const NavigationTabs = () => {
     const [value, setValue] = useState(0);
 
     const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+        dispatch({
+            type: "set_tab",
+            data: { id: newValue === 0 ? "my_cards" : "all_crads" },
+        });
         setValue(newValue);
     };
 

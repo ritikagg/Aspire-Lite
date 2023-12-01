@@ -19,6 +19,7 @@ export default function App() {
                 value={{
                     cards: state.cards,
                     selectedCardId: state.selectedCardId,
+                    selectedTab: state.selectedTab,
                 }}
             >
                 <RootDispatchContext.Provider value={dispatch}>

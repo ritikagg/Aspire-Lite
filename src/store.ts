@@ -21,6 +21,7 @@ export const initialState = {
             isFreeze: true,
         },
     ],
+    selectedTab: "my_cards",
 };
 
 // interface RootState {
@@ -54,6 +55,8 @@ export function reducer(state: any, action: { type: string; data: any }) {
         return { ...state, selectedCardId: action.data.id };
     } else if (action.type === "add_card") {
         return { ...state, cards: [...state.cards, action.data] };
+    } else if (action.type === "set_tab") {
+        return { ...state, selectedTab: action.data.id };
     }
 }
 
@@ -65,7 +68,8 @@ export const useSelectedCard = (cards: CardInfoIF[], selectedCardId: number) =>
 export const RootStateContext = React.createContext<{
     selectedCardId: number;
     cards: CardInfoIF[];
-}>({ selectedCardId: 123, cards: [] });
+    selectedTab: string;
+}>({ selectedCardId: 123, cards: [], selectedTab: "my_cards" });
 export const RootDispatchContext = React.createContext<any>(null);
 
 export const useRootState = () => useContext(RootStateContext);

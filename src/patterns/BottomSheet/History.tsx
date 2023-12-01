@@ -91,6 +91,12 @@ const History = () => {
                     }
                 >
                     <TransactionDetails />
+                    <div
+                        style={{ backgroundColor: "#EDFFF5", color: "#03D167" }}
+                        className="flex justify-center py-4 rounded-b-lg"
+                    >
+                        View all card transactions
+                    </div>
                 </Collapse>
             </div>
         </div>

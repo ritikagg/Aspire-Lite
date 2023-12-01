@@ -41,7 +41,7 @@ const dummyTrnx = [
 ];
 const TransactionDetails = () => {
     return (
-        <div className="flex flex-col gap-3 pt-4 border-x">
+        <div className="flex flex-col gap-3 pt-4 border-x rounded-b-lg">
             {dummyTrnx.map((txnObj) => {
                 return (
                     <div className="flex justify-between pb-2 border-b px-4 items-start">

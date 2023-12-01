@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Aspire-Lite/static/css/main.74c50c87.css",
-    "main.js": "/Aspire-Lite/static/js/main.989dd32a.js",
+    "main.css": "/Aspire-Lite/static/css/main.1b83b8c6.css",
+    "main.js": "/Aspire-Lite/static/js/main.fd7ad9ec.js",
     "static/js/787.998672b3.chunk.js": "/Aspire-Lite/static/js/787.998672b3.chunk.js",
     "index.html": "/Aspire-Lite/index.html",
-    "main.74c50c87.css.map": "/Aspire-Lite/static/css/main.74c50c87.css.map",
-    "main.989dd32a.js.map": "/Aspire-Lite/static/js/main.989dd32a.js.map",
+    "main.1b83b8c6.css.map": "/Aspire-Lite/static/css/main.1b83b8c6.css.map",
+    "main.fd7ad9ec.js.map": "/Aspire-Lite/static/js/main.fd7ad9ec.js.map",
     "787.998672b3.chunk.js.map": "/Aspire-Lite/static/js/787.998672b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74c50c87.css",
-    "static/js/main.989dd32a.js"
+    "static/css/main.1b83b8c6.css",
+    "static/js/main.fd7ad9ec.js"
   ]
 }

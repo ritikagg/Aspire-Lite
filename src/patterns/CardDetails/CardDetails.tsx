@@ -3,7 +3,7 @@ import CardActions from "../../components/CardActions/CardActions";
 import { useDispatch, useRootState, useSelectedCard } from "../../store";
 
 const CardDetails = () => {
-    const { selectedCardId, cards } = useRootState();
+    const { selectedCardId, cards, selectedTab } = useRootState();
     const dispatch = useDispatch();
     const selectedCard = useSelectedCard(cards, selectedCardId);
     const onFreeze = (id: number) => {
@@ -20,13 +20,17 @@ const CardDetails = () => {
 
     return (
         <>
-            <CardActions
-                visibleCard={selectedCard ?? cards[0]}
-                freezeCardHandler={onFreeze}
-                unfreezeCardHandler={onUnFreeze}
-                cancelCardHanlder={onCancel}
-            />
-            <History />
+            {selectedTab === "my_cards" && (
+                <>
+                    <CardActions
+                        visibleCard={selectedCard ?? cards[0]}
+                        freezeCardHandler={onFreeze}
+                        unfreezeCardHandler={onUnFreeze}
+                        cancelCardHanlder={onCancel}
+                    />
+                    <History />
+                </>
+            )}
         </>
     );
 };
